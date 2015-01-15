@@ -11,7 +11,6 @@ class MyConf
   end
 end
 
-
 describe DynamicCall do
   it 'should be able to call dynamic method' do
     result=DynamicCall.new.my_method 'hi'
